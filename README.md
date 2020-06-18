@@ -13,8 +13,8 @@ to compile, you must have some sort of `ghc`. to get that, go [here](https://doc
 
 once you've got `stack`, you can simply do
 
-```sh
-	stack morse.hs
+```bash
+stack morse.hs
 ```
 
 to run the script. this works because of the header in the source file.
@@ -24,7 +24,7 @@ to run the script. this works because of the header in the source file.
 if you'd like to make changes and work with the script's functions interactively, use
 
 ```bash
-	stack ghci morse.hs
+stack ghci morse.hs
 ```
 which will launch the interpreter and let you poke around. running `main` here will simply run the script from its normal entry point.
 
@@ -36,4 +36,4 @@ which will launch the interpreter and let you poke around. running `main` here w
 
 #### citations
 
-- thanks to https://github.com/tsoding/haskell-music for the `ffmpeg` skeleton
+- thanks to [tsoding](https://github.com/tsoding/haskell-music) for the `ffmpeg` skeleton
