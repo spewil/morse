@@ -23,7 +23,7 @@ to run the script. this works because of the header in the source file.
 
 if you'd like to make changes and work with the script's functions interactively, use
 
-```sh
+```bash
 	stack ghci morse.hs
 ```
 which will launch the interpreter and let you poke around. running `main` here will simply run the script from its normal entry point.
